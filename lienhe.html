@@ -12,18 +12,18 @@
 <body>
     <!-- Header -->
     <header class="bg-dark text-white text-center py-3">
-        <h1>T88</h1>
+        <h1><a class="nav-link" href="T88.html">T88</a></h1>
     </header>
 
     <!-- Navigation Bar -->
-    <nav class="navbar navbar-expand-lg ">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item"><a class="nav-link" href="T88.Html">Trang chủ</a></li>
+                    <li class="nav-item"><a class="nav-link" href="T88.html">Trang chủ</a></li>
                     <li class="nav-item"><a class="nav-link" href="gioithieu.html">Giới thiệu</a></li>
                     <li class="nav-item"><a class="nav-link" href="dichvu.html">Dịch vụ</a></li>
                     <li class="nav-item"><a class="nav-link" href="lienhe.html">Liên hệ</a></li>
@@ -34,56 +34,29 @@
 
     <!-- Main Content -->
     <main class="container mt-5">
-        <h2 class="text-center mb-4">Liên Hệ Với Chúng Tôi</h2>
-        <div class="row">
-            <!-- Contact Form -->
-            <div class="col-md-8 mx-auto">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Gửi Thông Tin</h5>
-                        <form>
-                            <div class="mb-3">
-                                <label for="name" class="form-label">Họ và tên</label>
-                                <input type="text" class="form-control" id="name" required>
-                            </div>
-                            <div class="mb-3">
-                                <label for="email" class="form-label">Email</label>
-                                <input type="email" class="form-control" id="email" required>
-                            </div>
-                            <div class="mb-3">
-                                <label for="phone" class="form-label">Số điện thoại</label>
-                                <input type="tel" class="form-control" id="phone">
-                            </div>
-                            <div class="mb-3">
-                                <label for="message" class="form-label">Tin nhắn</label>
-                                <textarea class="form-control" id="message" rows="4" required></textarea>
-                            </div>
-                            <button type="submit" class="btn btn-primary">Gửi</button>
-                        </form>
-                    </div>
+        <div class="contact-form bg-dark text-light p-4 rounded">
+            <h2 class="text-warning">Liên hệ với chúng tôi</h2>
+            <form>
+                <div class="mb-3">
+                    <label for="name" class="form-label">Tên:</label>
+                    <input type="text" id="name" name="name" class="form-control" required>
                 </div>
-            </div>
-        </div>
-        <div class="row mt-5">
-            <!-- Contact Information -->
-            <div class="col-md-6 mx-auto">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Thông Tin Liên Hệ</h5>
-                        <p><strong>Địa chỉ:</strong> 123 Đường ABC, Thành phố XYZ, Việt Nam</p>
-                        <p><strong>Điện thoại:</strong> +84 123 456 789</p>
-                        <p><strong>Email:</strong> info@vaynhanh247.com</p>
-                    </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email:</label>
+                    <input type="email" id="email" name="email" class="form-control" required>
                 </div>
-            </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Tin nhắn:</label>
+                    <textarea id="message" name="message" class="form-control" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-warning">Gửi</button>
+            </form>
         </div>
     </main>
 
     <!-- Footer -->
-    <footer class="bg-light text-center py-3">
+    <footer class="bg-dark text-light text-center py-3">
         <p>&copy; 2024 Vay nhanh 24/7. All rights reserved.</p>
-        <a href="#" class="text-decoration-none">Chính sách bảo mật</a> | 
-        <a href="#" class="text-decoration-none">Điều khoản dịch vụ</a>
     </footer>
 
     <!-- Scripts -->
